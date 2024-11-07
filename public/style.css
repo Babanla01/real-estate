@@ -263,18 +263,22 @@ button,input{
     color: var(--text-white);
     margin-bottom: var(--mb-1-5);
 }
-.news__input{
+.news__input,
+.hero__input{
     display: flex;
     align-items: center;
     background-color: var(--container-color);
     border-radius: 2rem;
     padding-left: 1.5rem;
+    position: relative;
 }
-.news__input input{
+.news__input input,
+.hero__input input{
     flex: 1;
     padding: .75rem;
 }
-.news__input button{
+.news__input button,
+.hero__inputs button{
      display: inline-block;
     background-color:var(--primary-color);
     color: #fff;
@@ -334,6 +338,7 @@ button,input{
 }
 .footer__copyright{
     text-align: center ;
+    margin-top: var(--mb-1-5);
 }
 .footer a:hover{
     color: var(--primary-color);
@@ -371,3 +376,71 @@ button,input{
 }
 
 /* =========================  HOME PAGE VIEW ========================= */
+.home{
+    min-width: 100vw;
+    height: 100dvh;
+    background-image: url(../src/assets/Images/HeroImage.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+.hero__head{
+    color: var(--text-white);
+    font-size: var(--h1-font-size);
+    text-align: center;
+    position: relative;
+    z-index: 2
+}
+.hero__text{
+    color: var(--text-white);
+    font-size: var(--h3-font-size);
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+.hero__inputs{
+    background-color:rgba(255, 255, 255, 0.588);
+    border-radius: 2rem;
+    width:min(100%, 1200px) !important;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+.hero__icon{
+    position: absolute;
+    left: 1rem;
+}
+.hero__icon i{
+    font-size: 1.25rem;
+    color: var(--tittle-color);
+}
+.recently__searched{
+    display: flex;
+    column-gap: 1.25rem;
+    margin-left: var(--mb-2);
+    padding: 1rem;
+}
+.recently__searched div{
+    display: flex;
+    column-gap: .75rem;
+}
+.recently__searched span{
+    text-decoration: underline;
+}
