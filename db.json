@@ -1,0 +1,86 @@
+{
+    "records": [
+        {
+            "id": 1,
+            "number": "18+",
+            "stats": "Satisfied Clients"
+        },
+        {
+            "id": 2,
+            "number": "10K+",
+            "stats": "Plots Delivered"
+        },
+        {
+            "id": 3,
+            "number": "10+",
+            "stats": "Years of Experience"
+        }
+    ],
+    "featuredProperties": [
+        {
+            "id": 1,
+            "image": "GreenlandAcres.png",
+            "name": "Greenland Acres",
+            "rating": "4.3",
+            "price": "₦5,000,000",
+            "location": "Lagos, Nigeria",
+            "description": "Nestled near serene rolling hills, Greenhaven Acres offers expansive plots perfect for your dream home. "
+        },
+        {
+            "id": 2,
+            "image": "SuncrestEstates.png",
+            "name": "Suncrest Estates",
+            "rating": "4.4",
+            "price": "₦8,500,000",
+            "location": "Abuja, Nigeria",
+            "description": "Suncrest Estates boasts sun-drenched plots with breathtaking views of the countryside"
+        },
+        {
+            "id": 3,
+            "image": "RiverStoneValley.png",
+            "name": "RiverStone Valley",
+            "rating": "4.8",
+            "price": "₦7,200,000",
+            "location": "Ogun, Nigeria",
+            "description": "Located near a tranquil riverbank, Riverstone Valley features premium plots ideal for nature lovers"
+        }
+    ],
+    "LatestListings": [
+        {
+            "id": 1,
+            "image": "VictoriaCrest.png",
+            "like": "love.png",
+            "name": "Victoria Crest",
+            "location": "Victoria island, Lagos",
+            "price": "₦150,000,000",
+            "size": "900 sqm"
+        },
+        {
+            "id": 2,
+            "image": "EmeraldGardens.png",
+            "like": "love.png",
+            "name": "Emrald Gardens",
+            "location": "Gwarimpa, Abuja",
+            "price": "₦40,000,000",
+            "size": "1,000 sqm"
+        },
+        {
+            "id": 3,
+            "image": "EkoPearlEstate.png",
+            "like": "love.png",
+            "name": "Eko Pearl Estate",
+            "location": "Eko Atlantic, Lagos",
+            "price": "₦180,000,000",
+            "size": "1,200 sqm"
+        },
+        {
+            "id": 4,
+            "image": "AmberHeights.png",
+            "like": "love.png",
+            "name": "Amber Heights",
+            "location": "Wuse II, Abuja",
+            "price": "₦80,000,000",
+            "size": "1,100 sqm"
+        }
+    ]
+}
