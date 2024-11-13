@@ -113,6 +113,29 @@
       </div>
     </div>
   </div>
+  <div class="quick__search section">
+    <button class="button">View All Plot</button>
+    <button class="button button__outline">Contact Us</button>
+  </div>
+  <div class="about section">
+    <h2 class="about__heading">Why Choose Us</h2>
+    <div class="about__content grid">
+      <div class="abouts">
+        <p class="about__texts">
+          At PlotVista, we specialize in connecting buyers with premium real
+          estate plots across Nigeria. With a focus on transparency, quality,
+          and customer satisfaction, we provide a seamless experience for those
+          looking to invest in land for residential, commercial, or investment
+          purposes. Our team of experts is dedicated to helping you find the
+          perfect plot that meets your unique needs and aspirations.
+        </p>
+        <button class="button">About Us</button>
+      </div>
+      <div class="about__">
+        <img src="../assets/Images/AboutImage.png" alt="" class="about__img" />
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
